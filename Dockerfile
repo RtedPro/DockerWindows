@@ -35,6 +35,6 @@ VOLUME /storage
 ENV RAM_SIZE "12G"
 ENV CPU_CORES "3"
 ENV DISK_SIZE "128G"
-ENV VERSION "win10e"
+ENV VERSION "win10-iot"
 
 ENTRYPOINT ["/usr/bin/tini", "-s", "/run/entry.sh"]
